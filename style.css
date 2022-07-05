@@ -1,0 +1,76 @@
+/* top */
+.intro{
+    padding-top: 2%;
+    color: white;
+}
+.intro h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.intro p{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#roar{
+    text-decoration: none;
+    color: coral;
+    font-size: 25px;
+    font-weight: 700;
+}
+.top-button a{
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+}
+.top-button{
+    margin-top: 3%;
+}
+#top{
+    background-image: url(picture/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    margin-bottom: 5%;
+}
+/* middle */
+.middle{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.middle h3{
+    font-size: 30px;
+}
+.middle p{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.flex{
+    display: flex;
+    margin-left: 28% ;
+    margin-top: 3%;
+}
+.ammount{
+    margin-left: 1%;
+    width: 10%;
+    background-color: rgb(252, 243, 243);
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(161, 156, 156);
+}
+.marked-ammount{
+    margin-left: 1%;
+    width: 10%;
+    background-color: bisque;
+    padding-right: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+    color: rgb(161, 156, 156);
+    font-weight: 600;
+}
