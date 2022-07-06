@@ -1,3 +1,12 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
 /* top */
 .intro{
     padding-top: 2%;
@@ -16,7 +25,7 @@
 }
 #roar{
     text-decoration: none;
-    color: coral;
+    color: rgb(250, 69, 3);
     font-size: 25px;
     font-weight: 700;
 }
@@ -26,14 +35,14 @@
     padding: 10px 20px;
     border-radius: 5px;
     color: aliceblue;
-    font-weight: 700;
+    font-weight: 300;
     text-align: center;
 }
 .top-button{
     margin-top: 3%;
 }
 #top{
-    background-image: url(picture/donation8.jpg);
+    background-image: url(picture/donation8.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 480px;
@@ -46,6 +55,10 @@
 }
 .middle h3{
     font-size: 30px;
+}
+.middle h2{
+    font-size: 30px;
+    margin-top: 10%;
 }
 .middle p{
     padding-left: 30%;
@@ -88,6 +101,7 @@
     margin-right: 5%;
     background-color: rgba(151, 247, 215, 0.979);
     border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(243, 238, 238);
 
 }
 
@@ -96,6 +110,8 @@
     padding-left: 2%;
     background-color: bisque;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(243, 238, 238);
+
 
 
 }
@@ -105,6 +121,8 @@
     background-color: rgb(247, 212, 167);
     border-radius: 10px;
     margin-left: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(243, 238, 238);
+
 }
 .contribute{
     display: flex;
@@ -121,6 +139,7 @@
 .half-width img{
     height: 300px;
     width: 400px;
+    margin-top: 10%;
 }
 .half-width h2{
     font-size: 40px;
@@ -136,11 +155,11 @@
     padding: 10px 20px;
     border-radius: 5px;
     color: aliceblue;
-    font-weight: 700;
+    font-weight: 300;
     text-align: center;
 }
 .content-button{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .middle h1{
     font-size: 40px;
@@ -149,17 +168,23 @@
     background-color:rgba(151, 247, 215, 0.979);
     border-radius: 20px;
     margin-bottom: 5%;
+    box-shadow: 10px 10px 10px 10px rgb(243, 238, 238);
+
 }
 .bisque{
     background-color:bisque;
     border-radius: 20px;
     margin-bottom: 5%;
+    box-shadow: 10px 10px 10px 10px rgb(243, 238, 238);
+
 
 }
 .cream{
     background-color:rgb(247, 212, 167);
     border-radius: 20px;
     margin-bottom: 5%;
+    box-shadow: 10px 10px 10px 10px rgb(243, 238, 238);
+
 }
 .org{
     padding-top: 15%;
@@ -169,6 +194,9 @@
     background-color: rgb(247, 232, 205);
     margin-left: 20%;
     margin-right: 20%;
+    font-weight: 200;
+    box-shadow: 5px 5px 5px 5px rgb(243, 238, 238);
+
 }
 .div{
     width:50%;
@@ -187,15 +215,31 @@
 #sub-button{
     text-decoration: none;
     margin-top: 4%;
-    margin-left: 15%;
-    margin-right: 60%;
+    margin-left: 20%;
+    margin-right: 50%;
     background-color: tomato;
     padding-left: 20px;
     padding-top: 3%;
-    padding-bottom: 3%;
-    
+    padding-bottom: 14px;
+    color: white;
 }
 #sub-button a{
     color: white;
     text-decoration: none;
+}
+footer{
+    text-align: center;
+    margin-top: 10%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+footer h2{
+    color: coral;
+    font-size: 30px;
+    font-family: cursive;
 }
