@@ -12,6 +12,7 @@
     text-align: center;
     padding-left: 30%;
     padding-right: 30%;
+    font-size: 15px;
 }
 #roar{
     text-decoration: none;
@@ -70,8 +71,8 @@
     background-color: bisque;
     padding-right: 10px;
     font-size: 20px;
-    border: 1px solid red;
-    color: rgb(161, 156, 156);
+    border: 1px solid tomato;
+    color: tomato;
     font-weight: 600;
 }
 .plan{
@@ -79,12 +80,13 @@
     margin-top: 5%;
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 #food{
     padding-top: 3%;
     padding-left: 2%;
     margin-right: 5%;
-    background-color: aquamarine;
+    background-color: rgba(151, 247, 215, 0.979);
     border-radius: 10px;
 
 }
@@ -100,7 +102,100 @@
 #edu{
     padding-top: 3%;
     padding-left: 2%;
-    background-color: burlywood;
+    background-color: rgb(247, 212, 167);
     border-radius: 10px;
     margin-left: 5%;
+}
+.contribute{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.half-width{
+    width: 45%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+}
+.half-width img{
+    height: 300px;
+    width: 400px;
+}
+.half-width h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.half-width p{
+    text-align: justify;
+    font-weight: 500;
+}
+.content-button a{
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+}
+.content-button{
+    margin-top: 10%;
+}
+.middle h1{
+    font-size: 40px;
+}
+.blue{
+    background-color:rgba(151, 247, 215, 0.979);
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.bisque{
+    background-color:bisque;
+    border-radius: 20px;
+    margin-bottom: 5%;
+
+}
+.cream{
+    background-color:rgb(247, 212, 167);
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.org{
+    padding-top: 15%;
+}
+#sub{
+    display: flex;
+    background-color: rgb(247, 232, 205);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.div{
+    width:50%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#mail{
+    background-color: lightgrey;
+    margin-left: 50%;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: grey;
+    width: 80%;
+}
+#sub-button{
+    text-decoration: none;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 60%;
+    background-color: tomato;
+    padding-left: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+#sub-button a{
+    color: white;
+    text-decoration: none;
 }
