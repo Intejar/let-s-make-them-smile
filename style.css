@@ -211,17 +211,17 @@ body{
     padding-top: 3%;
     padding-bottom: 3%;
     color: grey;
-    width: 80%;
+    width: 70%;
 }
 #sub-button{
     text-decoration: none;
     margin-top: 4%;
-    margin-left: 20%;
+    margin-left: 23%;
     margin-right: 50%;
     background-color: tomato;
-    padding-left: 20px;
+    padding-left: 18px;
     padding-top: 3%;
-    padding-bottom: 14px;
+    padding-bottom: 8px;
     color: white;
 }
 #sub-button a{
@@ -242,4 +242,13 @@ footer h2{
     color: coral;
     font-size: 30px;
     font-family: cursive;
+}
+input{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+    color: lightgrey;
+    font-size: 15px;
+
 }
